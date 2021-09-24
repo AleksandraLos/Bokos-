@@ -1,0 +1,32 @@
+.callout{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+#hero{
+    margin-bottom: 20px;
+}
+.current-books .title,
+.current-books .author,
+.current-books .price{
+    display: block;
+}
+
+.current-books .title,
+.current-books .price{
+    font-weight: bold;
+}
+
+.current-books .author{
+    font-size: .8em;
+}
+.current-books> div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.current-books>img{
+    width: 100%;
+}
